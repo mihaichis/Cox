@@ -9,6 +9,7 @@
 import AVFoundation
 import Vision
 import UIKit
+import SDWebImage
 
 class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
     var captureSession: AVCaptureSession!
