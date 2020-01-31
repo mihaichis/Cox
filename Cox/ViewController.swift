@@ -179,7 +179,7 @@ class ViewController: UIViewController, AVCapturePhotoCaptureDelegate {
         let width: CGFloat = 75
         let height = width
         shutterButton = UIButton(frame: CGRect(x: (view.frame.width - width) / 2,
-                                               y: view.frame.height - height - 32,
+                                               y: view.frame.height - height - 64,
                                                width: width,
                                                height: height
             )
